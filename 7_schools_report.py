@@ -1,6 +1,6 @@
 """
 Process the JSON file named school_data.json. Display only those schools 
-that are part of the ACC, Big 12, Big Ten, Pac-12 and SEC divisons.
+that are part of the ACC, Big 12, Big Ten, Pac-12 and SEC divisons. 
 
 Copy that info here:
 
@@ -16,3 +16,20 @@ Display report for all universities that have a total price for in-state student
 
 
 """
+import json
+
+outfile = open('school_data.json','r')
+
+
+for data in outfile['instnm']:
+    grad_rate = data["Graduation rate  women (DRVGR2020)"] > 50
+    price = data["Total price for in-state students living off campus (not with family)  2020-21 (DRVIC2020)"] > 50000
+
+    if grad_rate > 50:
+        print(f"University: {data['instnm']}")
+        print(f"Graduation Rate for Women: {data['instnm']}%\n")
+    
+    if price > 50000:
+        print(f"University: {data['instnm']}")
+        print(f"Total price for in-state students living off campus: ${data['instnm']:.2f}\n")
+
