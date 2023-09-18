@@ -20,15 +20,15 @@
    "Institution's internet website address (HD2020)": "www.acu.edu/",
    "NCAA": {
       "NAIA member for football (IC2020)": 1,
-      "NAIA conference number football (IC2020)": 132
-   },
+      "NAIA conference number football (IC2020)": 132                   
+   },                                                                 
    "Total price for in-state students living on campus 2020-21 (DRVIC2020)": 53672,
    "Total price for out-of-state students living on campus 2020-21 (DRVIC2020)": 53672,
    "Total price for in-state students living off campus (not with family)  2020-21 (DRVIC2020)": 53672,
    "Total price for out-of-state students living off campus (not with family)  2020-21 (DRVIC2020)": 53672,
    "Graduation rate  total cohort (DRVGR2020)": 66,
    "Graduation rate  men (DRVGR2020)": 64,
-   "Graduation rate  women (DRVGR2020)": 67
+   "Graduation rate  women (DRVGR2020)": 67              
 },
  {
    "instnm": "Academy of Art University",
@@ -86,8 +86,8 @@
    },
    "Total price for in-state students living on campus 2020-21 (DRVIC2020)": 63605,
    "Total price for out-of-state students living on campus 2020-21 (DRVIC2020)": 63605,
-   "Total price for in-state students living off campus (not with family)  2020-21 (DRVIC2020)": 63285,
-   "Total price for out-of-state students living off campus (not with family)  2020-21 (DRVIC2020)": 63285,
+   "Total price for in-state students living off campus (not with family)  2020-21 (DRVIC2020)": 63285,     
+   "Total price for out-of-state students living off campus (not with family)  2020-21 (DRVIC2020)": 63285,  
    "Graduation rate  total cohort (DRVGR2020)": 73,
    "Graduation rate  men (DRVGR2020)": 71,
    "Graduation rate  women (DRVGR2020)": 73
